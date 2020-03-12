@@ -3,12 +3,12 @@
 # Postman
 
 Tipo de request: POST\
-Endereço WSDL: http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL
+Endereço WSDL: http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL\
 Header: Content-Type - Value: text/xml
 
 Body: Request the Indian flag
 
-<!---
+```sh
 <Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
     <Body>
         <CountryFlag xmlns="http://www.oorsprong.org/websamples.countryinfo">
@@ -16,7 +16,7 @@ Body: Request the Indian flag
         </CountryFlag>
     </Body>
 </Envelope>
--->
+```
 Press Send and view result
 
 # Convert WSDL

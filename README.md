@@ -8,14 +8,15 @@ Header: Content-Type - Value: text/xml
 
 Body: Request the Indian flag
 
-#<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
-#    <Body>
-#        <CountryFlag xmlns="http://www.oorsprong.org/websamples.countryinfo">
-#            <sCountryISOCode>IN</sCountryISOCode>
-#        </CountryFlag>
-#    </Body>
-#</Envelope>
-
+<!---
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+        <CountryFlag xmlns="http://www.oorsprong.org/websamples.countryinfo">
+            <sCountryISOCode>IN</sCountryISOCode>
+        </CountryFlag>
+    </Body>
+</Envelope>
+-->
 Press Send and view result
 
 # Convert WSDL
